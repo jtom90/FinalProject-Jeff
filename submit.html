@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Submit
+	</title>
+	<link rel="stylesheet" type="text/css" href="styles/submit.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="header">
+		<h2> Foh-Tos </h2>
+		<img class="logo" src = "images/cam.jpg">
+	</div>
+		<nav class="navigation">
+			<ul>
+				<li><a href ="home.html"> Home </a></li>
+				<li><a href ="about.html"> About </a></li>
+				<li><a href ="gallery.html"> Gallery </a></li>
+				<li><a href ="submit.html"> Submit </a></li>
+			</ul>
+		</nav>
+		<div class="row">
+	  	<div class="col-md-6">
+	  		<input type="file" id="submit" accept="image/*" onchange="loadFile(event)">
+			<img id="output"/>
+			<input type="text" placeholder=":Description">
+	  	</div>
+  		<div class="col-md-6">
+  			<img src = "images/snap.gif">
+ 		 </div>
+		</div>
+	<div class="footer">
+  		<h2> Foh-Tos </h2>
+  		<ul>
+  			<li> High Definition Photos </li>
+  			<li> Beautiful and Elegant Landscape Photos </li>
+  			<li> All Types of Different Environment Shots </li>
+  		</ul>
+  	</div>
+</body>
+</html>
