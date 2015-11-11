@@ -152,20 +152,21 @@ ul li {
 }
 	}
 
-@media all and (min-width: 375px) {
+	/*phones*/
+@media all and (max-width: 500px) {
 	
 .row {
 	height:100px;
 	overflow:hidden;
 }
 .row img{
-	width:150px;
-	height:150px;
+	width:125px;
+	height:125px;
 	float:left;
 }
 .navigation {
 	text-align:right;
-	margin-right:0px;
+	margin-right:10px;
 	position:absolute;
 	top:30px;
 	right:10px;
@@ -174,23 +175,23 @@ ul li {
 	list-style-type:none;
 	display:inline;
 	color:grey;
-	font-size:20px;
+	font-size:10px;
 	padding:10px;
 }
 .header h2 {
 	color:grey;
-	margin-left:150px;
+	margin-left:75px;
 	position:absolute;
-	top:5px;
+	top:15px;
 	font-family: 'Lobster', cursive;
-	font-size:50px;
+	font-size:20px;
 }
 .logo {
 	position:absolute;
-	width:90px;
-	height:90px;
-	top:5px;
-	left:50px;
+	width:40px;
+	height:40px;
+	top:25px;
+	left:10px;
 	border:2px solid;
 	border-radius:50px;
 }
@@ -209,8 +210,36 @@ ul li {
 }
 .footer ul li {
 	text-align:left;
-	font-size:14px;
+	font-size:12px;
 }
+.window {
+	position:absolute;
+	top:220px;
+	left:120px;
+	width:250px;
+	height:110px;
+	background-color:#FFF;
+	color:black;
+	padding:10px;
+	font-size:10px;
+	font-family: 'Pacifico', cursive;
+	text-align:center;
+}
+.footer h2 {
+	font-family:lobster, cursive;
+	font-size:50px;
+	margin:0px;
+	padding:0px;
+	color:grey;
+	padding-top:25px;
+	padding-left:50px;
+}
+.footer ul li {
+	text-align:left;
+	font-size:10px;
+}
+
 	}
+
 
 
