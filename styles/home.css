@@ -69,13 +69,6 @@ nav ul li a:hover {
 .footer ul li {
 	text-align:center;
 }
-.contact {
-	float:right;
-	font-size:14px;
-	color:#FFF;
-	padding-right:250px;
-	margin:-150px;
-}
 .window {
 	position:absolute;
 	top:300px;
@@ -153,15 +146,15 @@ ul li {
 	}
 
 	/*phones*/
-@media all and (max-width: 500px) {
+@media all and (max-width: 400px) {
 	
 .row {
 	height:100px;
 	overflow:hidden;
 }
 .row img{
-	width:125px;
-	height:125px;
+	width:100px;
+	height:100px;
 	float:left;
 }
 .navigation {
@@ -175,12 +168,12 @@ ul li {
 	list-style-type:none;
 	display:inline;
 	color:grey;
-	font-size:10px;
-	padding:10px;
+	font-size:12px;
+	padding:5px;
 }
 .header h2 {
 	color:grey;
-	margin-left:75px;
+	margin-left:60px;
 	position:absolute;
 	top:15px;
 	font-family: 'Lobster', cursive;
@@ -197,25 +190,8 @@ ul li {
 }
 .window {
 	position:absolute;
-	top:250px;
-	left:150px;
-	width:500px;
-	height:200px;
-	background-color:#FFF;
-	color:black;
-	padding:10px;
-	font-size:20px;
-	font-family: 'Pacifico', cursive;
-	text-align:center;
-}
-.footer ul li {
-	text-align:left;
-	font-size:12px;
-}
-.window {
-	position:absolute;
 	top:220px;
-	left:120px;
+	left:100px;
 	width:250px;
 	height:110px;
 	background-color:#FFF;
@@ -227,16 +203,16 @@ ul li {
 }
 .footer h2 {
 	font-family:lobster, cursive;
-	font-size:50px;
+	font-size:30px;
 	margin:0px;
 	padding:0px;
 	color:grey;
 	padding-top:25px;
-	padding-left:50px;
+	padding-left:20px;
 }
 .footer ul li {
 	text-align:left;
-	font-size:10px;
+	font-size:8px;
 }
 
 	}
