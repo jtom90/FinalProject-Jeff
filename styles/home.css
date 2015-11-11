@@ -28,7 +28,7 @@ nav ul li a:hover {
 }
 .navigation {
 	text-align:right;
-	margin-right:200px;
+	margin-right:170px;
 	position:absolute;
 	top:30px;
 	right:10px;
@@ -90,28 +90,53 @@ nav ul li a:hover {
 	text-align:center;
 }
 
-@media all and (max-width: 1024px) {
+/*// tablet //*/
+@media all and (max-width: 768px) {
 	
 .row {
-	height:200px;
+	height:100px;
 	overflow:hidden;
 }
 .row img{
-	width:245px;
-	height:200px;
+	width:190px;
+	height:175px;
 	float:left;
 }
 .navigation {
 	text-align:right;
-	margin-right:100px;
+	margin-right:0px;
 	position:absolute;
 	top:30px;
 	right:10px;
 }
+ul li {
+	list-style-type:none;
+	display:inline;
+	color:grey;
+	font-size:20px;
+	padding:10px;
+}
+.header h2 {
+	color:grey;
+	margin-left:150px;
+	position:absolute;
+	top:5px;
+	font-family: 'Lobster', cursive;
+	font-size:50px;
+}
+.logo {
+	position:absolute;
+	width:90px;
+	height:90px;
+	top:5px;
+	left:50px;
+	border:2px solid;
+	border-radius:50px;
+}
 .window {
 	position:absolute;
-	top:300px;
-	left:305px;
+	top:250px;
+	left:150px;
 	width:500px;
 	height:200px;
 	background-color:#FFF;
@@ -120,6 +145,71 @@ nav ul li a:hover {
 	font-size:20px;
 	font-family: 'Pacifico', cursive;
 	text-align:center;
+}
+.footer ul li {
+	text-align:left;
+	font-size:14px;
+}
+	}
+
+@media all and (min-width: 375px) {
+	
+.row {
+	height:100px;
+	overflow:hidden;
+}
+.row img{
+	width:150px;
+	height:150px;
+	float:left;
+}
+.navigation {
+	text-align:right;
+	margin-right:0px;
+	position:absolute;
+	top:30px;
+	right:10px;
+}
+ul li {
+	list-style-type:none;
+	display:inline;
+	color:grey;
+	font-size:20px;
+	padding:10px;
+}
+.header h2 {
+	color:grey;
+	margin-left:150px;
+	position:absolute;
+	top:5px;
+	font-family: 'Lobster', cursive;
+	font-size:50px;
+}
+.logo {
+	position:absolute;
+	width:90px;
+	height:90px;
+	top:5px;
+	left:50px;
+	border:2px solid;
+	border-radius:50px;
+}
+.window {
+	position:absolute;
+	top:250px;
+	left:150px;
+	width:500px;
+	height:200px;
+	background-color:#FFF;
+	color:black;
+	padding:10px;
+	font-size:20px;
+	font-family: 'Pacifico', cursive;
+	text-align:center;
+}
+.footer ul li {
+	text-align:left;
+	font-size:14px;
 }
 	}
 
